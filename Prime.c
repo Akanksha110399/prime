@@ -13,7 +13,7 @@ int prime(int num,int i)
        }
        else
        {
-         return prime(num, i - 1);
+         return prime(num, i - 1);//recursion
        }       
     }
 }
